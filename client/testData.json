@@ -1,0 +1,45 @@
+{
+    "client":{
+        "code":123,
+        "name":"Krists",
+        "ready":false,
+        "turn":true,
+        "hasWon":false,
+        "cards":["kg","kc","g3","b4","yp","rn","bn", "r1","y2","g3","b4","yp","rn","bn"]
+    },
+    "clients":{
+        "clients":[
+            {
+                "name":"Janis",
+                "ready":true,
+                "turn":false,
+                "cardsCount":6,
+                "hasWon":false,
+                "score":[0,3]
+            },
+            {
+                "name":"Ruta",
+                "ready":true,
+                "turn":false,
+                "cardsCount":12,
+                "hasWon":false,
+                "score":[40,20]
+            },
+            {
+                "name":"Rainis",
+                "ready":true,
+                "turn":false,
+                "cardsCount":3,
+                "hasWon":false,
+                "score":["-", 128]
+            }                        
+        ]
+    },
+    "game":{
+        "discardDeck":["r4","y3"],
+        "drawDeckCount":12,
+        "winner":false,
+        "ready":true
+    },
+    "messages":[]
+}

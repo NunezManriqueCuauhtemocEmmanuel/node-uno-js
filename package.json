@@ -1,0 +1,38 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "build": "vue-cli-service build --mode=development",
+    "serve": "vue-cli-service serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "express": "^4.17.1",
+    "gsap": "^3.2.6",
+    "socket.io": "^2.3.0",
+    "vue": "^2.6.11",
+    "vue-cookies": "^1.7.0",
+    "vue-socket.io": "^3.0.7"
+  },
+  "devDependencies": {
+    "@vue/cli": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "vue": {
+    "publicPath": "client",
+    "outputDir": "client",
+    "pages": {
+      "index": {
+        "entry": "src/main.js",
+        "template": "src/index.html",
+        "filename": "index.html"
+      }
+    }
+  }
+}

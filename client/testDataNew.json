@@ -1,0 +1,111 @@
+{
+    "game":{
+       "cards":[
+            {   
+                "id":0,
+                "type":false,
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},
+                "owner":"draw",
+                "move":null
+            },
+            {
+                "id":1,            
+                "type":false,
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"draw",
+                "move":null
+            },
+            {
+                "id":2,            
+                "type":false,
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"draw",
+                "move":null
+            },
+            {
+                "id":3,            
+                "type":"y1",
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"dsc",
+                "move":null
+            },
+            {
+                "id":4,            
+                "type":"r4",
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},
+                "owner":"Krists",
+                "move":null
+            },
+            {
+                "id":5,
+                "type":"b3",
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"Krists",
+                "move":null
+            },
+            {
+                "id":6,
+                "type":"g0",
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"Krists",
+                "move":null
+            }, 
+            
+
+            {
+                "id":7,
+                "type":false,
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},
+                "owner":"Rainis",
+                "move":null
+            },
+            {
+                "id":8,
+                "type":false,
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"Rainis",
+                "move":null
+            },
+            {
+                "id":9,
+                "type":false,
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"Rainis",
+                "move":null
+            },
+            
+            {
+                "id":10,
+                "type":false,
+                "transform":{"x":0, "y":0, "z":0, "angle":0, "scale":1},            
+                "owner":"Dace",
+                "move":null
+            }         
+            
+        ],
+        "events":[
+            {
+                "cardId":1,
+                "ownerPrev":"",
+                "ownerNew":""
+            }
+        ],
+        "ready":true
+    },
+    "client":{
+        "name":"Krists",
+        "code":123,
+        "ready":true,
+        "takeOrLeave":false
+    },
+    "clients":[
+        {
+            "name":"Krists",
+            "ready":true
+        },
+        {
+            "name":"Rainis",
+            "ready":true
+        }             
+    ]
+}

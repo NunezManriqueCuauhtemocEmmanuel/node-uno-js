@@ -1,0 +1,15 @@
+version: '2'
+services:
+  web:
+    build: .
+    command: node server.js
+    volumes:
+      - .:/usr/app/
+    ports:
+      - "80:80"
+    networks:
+      - backbone
+
+networks:
+    backbone:
+        driver: bridge
