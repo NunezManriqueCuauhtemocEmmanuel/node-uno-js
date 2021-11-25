@@ -5,8 +5,6 @@ let server = require('https').Server(application);
 let GameServiceFactory = require('./node_src/GameServiceFactory.js');
 let GameServiceRepository = require('./node_src/GameServiceRepository.js');
 let UnitTest = require('./node_src/UnitTest.js');
-
-//Perform unit tests on some required logic
 let unitTest = new UnitTest();
 
 application.get('/', function(request, response){
@@ -14,7 +12,6 @@ application.get('/', function(request, response){
 });
 application.use('/client', express.static(__dirname + '/client'));
 
-//server.listen(3000);
 const PORT = process.env.PORT || 7700;
 
 server.listen(PORT, () => console.log(`Server corriendo en el puerto ${PORT}`))
@@ -28,7 +25,7 @@ io.sockets.on('connection', function(socket) {
     console.log('Socket connection');
     socket.on('create', function(room) {
 
-        console.log('Ingreso a la sala: ' + room + ' socketId: ' + socket.id);
+        console.log('Join room: ' + room + ' socketId: ' + socket.id);
         socket.join(room);
 
         let gameService = gameServiceRepository.findById(room);
