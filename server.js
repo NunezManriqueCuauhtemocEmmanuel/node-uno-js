@@ -1,7 +1,7 @@
 
 let express = require('express');
 let application = express();
-
+let server = require('https').Server(application);
 let GameServiceFactory = require('./node_src/GameServiceFactory.js');
 let GameServiceRepository = require('./node_src/GameServiceRepository.js');
 let UnitTest = require('./node_src/UnitTest.js');
