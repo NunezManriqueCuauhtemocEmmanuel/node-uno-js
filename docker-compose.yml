@@ -6,7 +6,7 @@ services:
     volumes:
       - .:/usr/app/
     ports:
-      - "80:80"
+      - "77:00"
     networks:
       - backbone
 
